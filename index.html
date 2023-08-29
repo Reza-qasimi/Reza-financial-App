@@ -5,6 +5,167 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reza Financial Website</title>
     <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body></body>
+  <body class="bg-color-primary text-color-white tracking-wider">
+    <header>
+      <nav class="container flex justify-between items-center">
+        <div class="w-20 py-5 text-color-secondary font-bold text-3xl">
+          <a href="#home"><span class="text-color-white">Light</span>Code</a>
+        </div>
+        <div>
+          <ul class="hidden lg:flex items-center space-x-6">
+            <li>
+              <a
+                href="#home"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#features"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Features</a
+              >
+            </li>
+            <li>
+              <a
+                href="#testimonials"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Testimonial</a
+              >
+            </li>
+            <li>
+              <a
+                href="#pricing"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                href="#blog"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                href="#contact"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <button
+                class="bg-color-secondary py-3 px-9 capitalize rounded-md font-bold hover:opacity-80 ease-in duration-200"
+              >
+                Free Trials
+              </button>
+            </li>
+          </ul>
+        </div>
+        <!-- Mobile Screen -->
+        <div id="humburger" class="lg:hidden cursor-pointer z-50 pr-6 sm:pr-0">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div
+          id="menu"
+          class="hidden bg-color-primary-dark h-[100vh] absolute inset-0"
+        >
+          <ul class="h-full grid place-items-center py-20">
+            <li>
+              <a
+                id="hlink"
+                href=""
+                class="hover:text-color-secondary ease-in duration-200"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                id="hlink"
+                href="#features"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Features</a
+              >
+            </li>
+            <li>
+              <a
+                id="hlink"
+                href="#testimonials"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Testimonial</a
+              >
+            </li>
+            <li>
+              <a
+                id="hlink"
+                href="#pricing"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                id="hlink"
+                href="#blog"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                id="hlink"
+                href="#contact"
+                class="hover:text-color-secondary ease-in duration-200"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <button class="btn">Free Trials</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Navigation ends -->
+    </header>
+    <!-- Header ends -->
+    <main>
+      <section id="#home" class="relative">
+        <!-- blobs -->
+        <div
+          class="w-80 h-80 bg-color-blob -z-10 absolute top-0 -left-5 blur-2xl opacity-30 rounded-full overflow-hidden"
+        ></div>
+        <div
+          class="w-80 h-80 bg-color-secondary -z-10 absolute bottom-10 right-0 blur-2xl opacity-30 rounded-full overflow-hidden"
+        ></div>
+        <div class="container py-20">
+          <div class="flex flex-col items-center z-20 md:flex-row">
+            <div class="text-center mb-12 md:text-left md:w-1/2 md:pr-10">
+              <h1 class="title">Awesome App for Your Financial.</h1>
+              <p class="mb-10 leading-relaxed">
+                This should be used to tell a story and let your users know a
+                little more about app and it’s use, How can benefit them.
+              </p>
+              <button class="btn">Downlaod App</button>
+            </div>
+            <div class="md:w-1/2">
+              <img src="img/hero4.png" alt="hero image" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
 </html>
