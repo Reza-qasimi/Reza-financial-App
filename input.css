@@ -5,6 +5,9 @@
 .btn {
   @apply bg-color-secondary py-3 px-9 capitalize rounded-md font-bold hover:opacity-80 ease-in duration-200;
 }
+.card_btn {
+  @apply w-full bg-color-primary-dark py-3 px-9 capitalize rounded-md font-bold hover:bg-color-secondary ease-in duration-200;
+}
 .title {
   @apply text-3xl md:text-4xl font-bold mb-4 leading-snug;
 }
@@ -42,4 +45,16 @@
     margin-top: 0;
     opacity: 1;
   }
+}
+/* card */
+.card {
+  perspective: 1000px;
+}
+.front,
+.back {
+  backface-visibility: hidden;
+  transition: all 0.4s ease;
+}
+.front {
+  overflow: hidden;
 }
